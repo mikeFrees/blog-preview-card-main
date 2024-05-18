@@ -1,0 +1,17 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "a blog preview card challenge from frontend mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "card",
+    "frontend",
+    "mentor"
+  ],
+  "author": "Mike Frees",
+  "license": "ISC"
+}
