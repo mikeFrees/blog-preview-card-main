@@ -13,5 +13,9 @@
     "mentor"
   ],
   "author": "Mike Frees",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeFrees/blog-preview-card-main"
+  }
 }
