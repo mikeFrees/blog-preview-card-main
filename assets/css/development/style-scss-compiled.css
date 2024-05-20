@@ -32,7 +32,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -399,6 +399,38 @@ summary,
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Figtree";
+  src: local("Figtree"), url("../fonts/static/Figtree-ExtraBold.ttf");
+}
+* {
+  color: black;
+}
+
+h1 {
+  font: 700 14px/1.5 Figtree;
+}
+
+h2 {
+  font: 700 24px/1.5 Figtree;
+}
+
+p {
+  font: 500 16px/1.5 Figtree;
+  color: hsl(0, 0%, 50%);
+}
+
+.publicationDate {
+  font: 500 14px/1.5 Figtree;
+  color: black;
+}
+
+a {
+  font: 700 14px/1.5 Figtree;
+  color: black;
+  text-decoration: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -409,6 +441,9 @@ summary,
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 384px;
   height: 522px;
   padding: 24px;
@@ -417,9 +452,50 @@ summary,
   border: 1px solid hsl(0, 0%, 7%);
   box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
 }
+.card img {
+  border-radius: 20px;
+}
+.card h1 {
+  background: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  padding: 4px 12px;
+  width: fit-content;
+}
+.card #author {
+  width: 32px;
+  aspect-ratio: 1/1;
+}
+.card address {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card address img {
+  margin-right: 12px;
+}
+.card article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 194px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 body {
   background: hsl(47, 88%, 63%);
+}
+
+* {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style-scss-compiled.css.map */

@@ -1,3 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains typography CSS.
 // -----------------------------------------------------------------------------
+*{
+  color: black;
+}
+
+h1 {
+  font : 700 14px/1.5 Figtree;
+}
+
+h2 {
+  font : 700 24px/1.5 Figtree;
+}
+
+p{
+  font : 500 16px/1.5 Figtree;
+  color: hsl(0, 0%, 50%);
+}
+
+.publicationDate{
+  font : 500 14px/1.5 Figtree;
+  color: black;
+}
+
+a {
+  font : 700 14px/1.5 Figtree;
+  color: black;
+  text-decoration: none;
+}
