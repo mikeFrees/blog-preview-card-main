@@ -1,4 +1,12 @@
 .card{
+  @media (max-width: 385px) {
+    width: 327px;
+    height: 501px;
+    h1, #publicationDate{font-size: 12px;}
+    h2{font-size: 20px;}
+    p{font-size: 14px;}
+    article{height: 173px;}
+  }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,6 +17,11 @@
   background: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
   box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+
+  & h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: url('../../icons/handcursor.svg'), auto;;
+  }
 
   img{
     border-radius: 20px;;

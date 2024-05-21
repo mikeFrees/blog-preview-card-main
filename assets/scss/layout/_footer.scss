@@ -2,6 +2,18 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+  font : 700 14px/1.5 Figtree, Arial, sans-serif; 
+  text-align: center; 
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+footer {
+  margin-top: 50px; 
+  padding: 24px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
